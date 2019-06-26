@@ -1,10 +1,11 @@
 function FirstReverse(str) { 
 
-  let reversa = "";
+   reversa = "";
   str.split("").forEach(palabra => {
       reversa = palabra + reversa; 
   });
   return reversa;        
 }
-FirstReverse(readline());
+FirstReverse(("hello"));
+console.log(reversa);
   
