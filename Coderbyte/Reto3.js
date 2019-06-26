@@ -1,13 +1,9 @@
 function FirstReverse(str) { 
-   
-    resultado=str.toUpperCase();
-    srt=resultado;
-   // code goes here  
-   return str; 
-          
- }
-    
- // keep this function call here 
- FirstReverse(readline());                            
- 
- 
+
+  let reversa = "";
+  str.split("").forEach(palabra => {
+      reversa = palabra + reversa; 
+  })
+  return srt;        
+}
+FirstReverse(readline());
