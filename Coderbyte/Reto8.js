@@ -1,9 +1,8 @@
 function CheckNums(num1,num2) { 
-
-    num2=0;
-    num1=0;
-    return (num2 === num1) ? '-1' : (num2 > num1) ? true : false;
-           
-  }
-  CheckNums(8,8);
-  console.log(num1,num2);
+  
+  if(num2 > num1){return true;}
+  else if(num2 == num1){return -1;}
+  else{return false;}
+}
+console.log( CheckNums(3,8));
+ 
